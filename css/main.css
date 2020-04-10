@@ -97,48 +97,78 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
    /***** BASE STYLES *****/
 
+   html {
+     font-size: 16px;
+   }
+
    body {
-     font-family: Arial,Helvetica,sans-serif;
+     font-family: 'Indie Flower', cursive;
+     font-size: 1em;
      color: #2b2b2b;
+     text-align: left;
    }
 
-   /*****GRID*****/
-   .full-width{
-     width:1200px;
-     margin: 0 auto;
+   ul,
+   ol {
+     list-style-type: none;
    }
 
-   /*****HEADER STYLES*****/
+   img {
+   	width: 100%;
+   }
+
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+      }
+
+/***** BASE HEADER-FOOTER STYLES *****/
+
    header{
-     height: 800px;
+     background-color: #202322;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
      text-align: center;
-     background: url('../img/hero.png');
-     background-size: cover;
+     padding: 15px 0;
      color: #ffffff;
      font-family: 'Indie Flower', cursive;
 
    }
 
-   header h1{
-     font-size: 60px;
-     padding-top: 25px;
+   header .content-wrapper{
      margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
 
-   header h3{
-     font-size: 40px;
-     line-height:10px;
+
+   nav {
+   width: 100%;
+   font-size: 1em;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-flow: row wrap;
+    }
+
+   ul {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     padding-left: 0px;
+     margin: 0;
    }
 
    nav ul li{
      display: inline-block;
-     text-decoration: none;
-     font-size: 20px;
-     padding: 0 10px 0 10px;
-     border-style: solid;
-     border-color: #ffffff;
+     font-size: 1em;
    }
 
    nav ul li a{
@@ -153,6 +183,59 @@ textarea {
    footer a {
      color: #000000;
    }
+/***** MOBILE STYLES - HOMEPAGE *****/
+.hero-area {
+  background: url('../img/hero.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.hero-area h1{
+  font-size: 3em;
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+/********** ABOUT PAGE **********/
+
+body {
+  background-color: #000000;
+}
+
+
+
+.profile {
+  color: #ffffff;
+}
+
+.profile header h1 {
+  font-size: 4.0625em;
+  padding: 0 0 10px 50px;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+header h2{
+  font-size: 2.5em;
+  padding-bottom: 0;
+}
+
+header p{
+}
+
+img{
+  width: 500px;
+  height: 500px;
+  padding: 30px 0 0 50px;
+}
+
+
 
 /* ==========================================================================
    Helper classes

@@ -123,11 +123,11 @@ textarea {
    .content-wrapper {
      width: 90%;
      margin: 50px 0;
-      }
+    }
 
 /***** BASE HEADER-FOOTER STYLES *****/
 
-   header{
+   header {
      background-color: #202322;
      display: flex;
      justify-content: center;
@@ -137,10 +137,9 @@ textarea {
      padding: 15px 0;
      color: #ffffff;
      font-family: 'Indie Flower', cursive;
+    }
 
-   }
-
-   header .content-wrapper{
+   header .content-wrapper {
      margin: 0;
      display: flex;
      justify-content: center;
@@ -151,7 +150,7 @@ textarea {
 
    nav {
    width: 100%;
-   font-size: 1em;
+   font-size: 2em;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -166,23 +165,24 @@ textarea {
      margin: 0;
    }
 
-   nav ul li{
+   nav ul li {
      display: inline-block;
      font-size: 1em;
    }
 
-   nav ul li a{
+   nav ul li a {
      color: #ffffff;
      text-decoration: none;
    }
 
-   footer{
+   footer {
      text-align: center;
    }
 
    footer a {
      color: #000000;
    }
+
 /***** MOBILE STYLES - HOMEPAGE *****/
 .hero-area {
   background: url('../img/hero.png');
@@ -208,31 +208,43 @@ body {
   background-color: #000000;
 }
 
-
-
-.profile {
+.about {
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
 }
 
-.profile header h1 {
+.about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.about .about-info {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
+text-align: center;
+}
+
+.about header h1 {
   font-size: 4.0625em;
   padding: 0 0 10px 50px;
   margin-bottom: 0;
   font-weight: lighter;
 }
 
-header h2{
+.about header h2 {
   font-size: 2.5em;
   padding-bottom: 0;
 }
 
-header p{
-}
-
-img{
-  width: 500px;
+img {
+  width: 90%;
   height: 500px;
-  padding: 30px 0 0 50px;
 }
 
 

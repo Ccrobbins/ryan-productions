@@ -114,18 +114,15 @@ textarea {
    body {
      font-family: 'Indie Flower', cursive;
      font-size: 1em;
-     color: #2b2b2b;
+     color: red;
      text-align: left;
    }
 
-   ul,
-   ol {
+   ul li a{
      list-style-type: none;
    }
 
-   img {
-   	width: 100%;
-   }
+
 
    .content-wrapper {
      width: 90%;

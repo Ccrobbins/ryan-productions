@@ -111,7 +111,7 @@ textarea {
      text-align: left;
    }
 
-   ul li a{
+   ul li {
      list-style-type: none;
    }
 
@@ -121,7 +121,7 @@ textarea {
 
    .content-wrapper {
      width: 90%;
-     margin: 50px 0;
+     margin: 0 50px;
     }
 
 /***** BASE HEADER-FOOTER STYLES *****/
@@ -131,7 +131,6 @@ textarea {
      display: flex;
      color: #E0CBB6;
      height: 250px;
-     margin-bottom:50px;
     }
 
    header .content-wrapper {
@@ -183,8 +182,12 @@ textarea {
    }
 
    footer a {
-     color: #FFFFFF;
+     color: #E0CBB6;
    }
+
+
+
+
 
 /***** MOBILE STYLES - HOMEPAGE *****/
 

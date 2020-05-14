@@ -102,6 +102,7 @@ textarea {
 
    html {
      font-size: 16px;
+     margin: 0;
    }
 
    body {
@@ -109,6 +110,11 @@ textarea {
      font-size: 1em;
      color: #E0CBB6;
      text-align: left;
+     margin: 0;
+   }
+
+   ul {
+     padding: 0px;
    }
 
    ul li {
@@ -121,7 +127,7 @@ textarea {
 
    .content-wrapper {
      width: 90%;
-     margin: 0 50px;
+     margin: auto 50px;
     }
 
 /***** BASE HEADER-FOOTER STYLES *****/
@@ -175,10 +181,11 @@ textarea {
      text-decoration: none;
    }
 
+
    footer ul{
      display: flex;
-     flex-direction: row;
-     justify-content: space-around;
+    
+     justify-content: space-between;
    }
 
    footer a {

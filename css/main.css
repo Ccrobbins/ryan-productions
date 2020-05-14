@@ -127,36 +127,36 @@ textarea {
 
    .content-wrapper {
      width: 90%;
-     margin: auto 50px;
+     margin: 50px auto;
     }
 
 /***** BASE HEADER-FOOTER STYLES *****/
 
-   header {
-     background-color: #304543;
-     display: flex;
-     color: #E0CBB6;
-     height: 250px;
+    header,
+    footer {
+      background-color: #304543;
+      color: #E0CBB6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
    header .content-wrapper {
      display: flex;
-     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
      width: 100%;
    }
 
-   .logo {
+   .figure {
      display: flex;
      justify-content: center;
    }
 
-   .logo img {
-     height: 200px;
-     width: 200px;
-   }
-
-   nav {
-   width: 100%;
+   header nav {
+   width: 60%;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -171,25 +171,46 @@ textarea {
      margin: 0;
    }
 
-   nav ul li {
-     display: inline-block;
-     font-size: 1em;
-   }
-
    nav ul li a {
      color: #E0CBB6;
      text-decoration: none;
    }
 
+   footer {
+     text-align: center;
+     flex-direction: column;
+   }
 
-   footer ul{
+   footer p {
+     margin: 0;
+   }
+
+   footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0;
+   }
+
+   footer .social-icons{
      display: flex;
-    
      justify-content: space-between;
+     align-items: center;
+   }
+
+   footer .content-wrapper p{
+     width: 75px;
+     height: 75px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2em;
    }
 
    footer a {
      color: #E0CBB6;
+   }
+
+   footer h3 {
+     margin: 0;
    }
 
 

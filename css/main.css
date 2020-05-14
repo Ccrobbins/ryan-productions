@@ -130,6 +130,10 @@ textarea {
      margin: 50px auto;
     }
 
+    .option-3 span {
+      font-size: .65em;
+    }
+
 /***** BASE HEADER-FOOTER STYLES *****/
 
     header,

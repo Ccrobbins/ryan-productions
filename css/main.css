@@ -223,6 +223,19 @@ textarea {
 
 /***** MOBILE STYLES - HOMEPAGE *****/
 
+.packages h1 {
+  text-align: center;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
 /********** ABOUT PAGE **********/
 
 body {

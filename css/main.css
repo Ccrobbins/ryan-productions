@@ -105,9 +105,9 @@ textarea {
    }
 
    body {
-     font-family: 'Indie Flower', cursive;
+     font-family:'Nixie One', cursive;
      font-size: 1em;
-     color: #2b2b2b;
+     color: #E0CBB6;
      text-align: left;
    }
 
@@ -117,7 +117,7 @@ textarea {
    }
 
    img {
-   	width: 100%;
+     width: 100%;
    }
 
    .content-wrapper {
@@ -128,36 +128,38 @@ textarea {
 /***** BASE HEADER-FOOTER STYLES *****/
 
    header {
-     background-color: #202322;
+     background-color: #304543;
      display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-     text-align: center;
-     padding: 15px 0;
-     color: #ffffff;
-     font-family: 'Indie Flower', cursive;
+     color: #E0CBB6;
+     height: 250px;
+     margin-bottom:50px;
     }
 
    header .content-wrapper {
-     margin: 0;
      display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
+     flex-direction: column;
+     width: 100%;
    }
 
+   .logo {
+     display: flex;
+     justify-content: center;
+   }
+
+   .logo img {
+     height: 200px;
+     width: 200px;
+   }
 
    nav {
    width: 100%;
-   font-size: 2em;
    display: flex;
    justify-content: space-around;
    align-items: center;
    flex-flow: row wrap;
     }
 
-   ul {
+   nav ul {
      width: 100%;
      display: flex;
      justify-content: space-around;
@@ -171,36 +173,21 @@ textarea {
    }
 
    nav ul li a {
-     color: #ffffff;
+     color: #E0CBB6;
      text-decoration: none;
    }
 
-   footer {
-     text-align: center;
+   footer ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
    }
 
    footer a {
-     color: #000000;
+     color: #FFFFFF;
    }
 
 /***** MOBILE STYLES - HOMEPAGE *****/
-.hero-area {
-  background: url('../img/hero.png');
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-}
-
-.hero-area h1{
-  font-size: 3em;
-  margin: 0;
-  color: #ffffff;
-  font-family: 'Indie Flower', cursive;
-  text-align: center;
-}
 
 /********** ABOUT PAGE **********/
 
@@ -242,10 +229,7 @@ text-align: center;
   padding-bottom: 0;
 }
 
-img {
-  width: 90%;
-  height: 500px;
-}
+
 
 
 
